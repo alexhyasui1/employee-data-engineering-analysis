@@ -8,7 +8,7 @@ This project utilizes Data Engineering and Data Analysis to build a SQL database
   - For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key), which takes two primary keys in order to uniquely identify a row
   - Be sure to create tables in the correct order to handle foreign keys
 <p align="center">
-  <img src="https://github.com/alexhyasui1/sql-challenge/blob/master/EmployeeSQL/ERD_image.png" height="75%" width="75%">
+  <img src="https://github.com/alexhyasui1/sql-challenge/EmployeeSQL/ERD_image.png" height="75%" width="75%">
 </p>
 
 - Import each CSV file into the corresponding SQL table and make sure to import the data in the same order that the tables were created
@@ -32,16 +32,16 @@ connection = engine.connect()
 ```
 - Create a histogram to visualize the most common salary ranges for employees
 <p align="center">
-  <img src="https://github.com/alexhyasui1/sql-challenge/master/images/histogram.png" height="75%" width="75%">
+  <img src="https://github.com/alexhyasui1/sql-challenge/images/histogram.png" height="75%" width="75%">
 </p>
 
 - Create a bar chart of average salary by title
 <p align="center">
-  <img src="https://github.com/alexhyasui1/sql-challenge/master/images/barchart.png" height="75%" width="75%">
+  <img src="https://github.com/alexhyasui1/sql-challenge/images/barchart.png" height="75%" width="75%">
 </p>
 
 ## List of Content
-1. employee_ERD.png: an image file of the ERD
-2. employee_schema.sql: a .sql file of the table schemata
-3. employee_query.sql: a .sql file of the queries
+1. ERD_image.png: an image file of the ERD
+2. table_schemata.sql: a .sql file of the table schemata
+3. queries.sql: a .sql file of the queries
 4. employee.ipynb: a Jupyter Notebook of the bonus analysis
