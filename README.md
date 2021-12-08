@@ -32,12 +32,12 @@ connection = engine.connect()
 ```
 - Create a histogram to visualize the most common salary ranges for employees
 <p align="center">
-  <img src="https://github.com/alexhyasui1/sql-challenge/blob/master/images/histogram.png" height="75%" width="75%">
+  <img src="https://github.com/alexhyasui1/sql-challenge/master/images/histogram.png" height="75%" width="75%">
 </p>
 
 - Create a bar chart of average salary by title
 <p align="center">
-  <img src="https://github.com/alexhyasui1/sql-challenge/blob/master/images/barchart.png" height="75%" width="75%">
+  <img src="https://github.com/alexhyasui1/sql-challenge/master/images/barchart.png" height="75%" width="75%">
 </p>
 
 ## List of Content
